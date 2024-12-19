@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 
 
-const Card = ({ item,reference }) => {
+const Card = ({ item, reference }) => {
     return (
         <motion.div drag dragConstraints={reference} whileDrag={{scale: 1.1}} dragElastic={1} 
         dragTransition={{bounceStiffness: 200, bounceDamping: 10}}
